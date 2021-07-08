@@ -17,9 +17,9 @@ function Box(props) {
   }
 
   return (
-    <div className={`w-1/3 p-1 ${bgColor ? 'text-white' : 'text-black'} cursor-pointer`} onClick={handleClick}>
+    <div className={`lg:w-1/3 md:w-1/2 w-full p-1 ${bgColor ? 'text-white' : 'text-black'} cursor-pointer`} onClick={handleClick}>
       <div className={`${bgColor ? 'bg-purple-900 hover:bg-purple-800 ' : 'bg-gray-200 hover:bg-gray-300'}`} >
-        <div className="p-10 h-80">
+        <div className="p-10 h-84">
           <div>
             <div>
               {month}
